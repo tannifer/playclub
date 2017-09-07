@@ -35,6 +35,11 @@ section {
     text-transform: none;
     font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
 
+strong {
+    color : white;
+
+}
+
 @media (min-width: 768px) {
   section {
     padding: 150px 0; } }
@@ -436,11 +441,18 @@ header.masthead {
 
 section#contact {
   background-color: #222222;
-  background-image: url("../img/map-image.png");
+  background-image: url("../img/PlayBackground.jpg");
   background-repeat: no-repeat;
-  background-position: center; }
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+ }
   section#contact .section-heading {
-    color: white; }
+    color: black; }
+  section#contact .text-muted h3.section-subheading {
+    color: black; }
   section#contact .form-group {
     margin-bottom: 25px; }
     section#contact .form-group input,
